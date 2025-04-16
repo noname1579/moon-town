@@ -13,7 +13,8 @@ export default function Header() {
           <Book size={30}/>
           <h1 className="md:text-2xl text-xl font-bold mx-4">Moon Town</h1>
         </div>
-        <div className="md:flex gap-20 text-xl hidden">
+        <div className="md:flex gap-12 text-xl hidden">
+        <Link href='/'>Главная</Link>
           <Link href='/library'>Библиотека</Link>
           <Link href='/editor'>Редактор</Link>
           <Link href='/profile'>Профиль</Link>
